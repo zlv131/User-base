@@ -1,0 +1,13 @@
+.wrapper__sortingButton{
+
+}
+
+.sortingButton{
+    width: 170px;
+    height: 50px;
+    background: #4b51ef;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,24 @@
+.wrapper__leftMenu{
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    gap: 20px;
+
+
+
+    width: 300px;
+    height: 2000px;
+    background: #bdbdbd;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+}
+
+.leftMenu__title{
+    margin-top: 20px;
+    font-family: 'Roboto Thin';
+    font-weight: 500;
+    text-decoration-line: underline;
+    font-size: 24px;
+    color: black;
+}

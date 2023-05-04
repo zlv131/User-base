@@ -1,0 +1,10 @@
+.wrapper__mainScreen{
+    margin: 20px 0px 0px 50px;
+
+}
+
+.mainScreen__title{
+    font-family: 'Roboto Thin';
+    font-weight: 600;
+    font-size: 24px;
+}
