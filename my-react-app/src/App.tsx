@@ -8,6 +8,11 @@ import {useState} from "react";
 
 function App() {
     const [sort, setSort] = useState<boolean>(false);
+    const [modal, setModal] = useState<boolean>(false);
+
+    function swapModal(): void {
+        setModal(!modal);
+    }
 
     const sortList = (listUsers: User[], event: any): User[] => {
         const currentKeySort: string = event.target.value;
@@ -23,7 +28,7 @@ function App() {
   return (
     <div className="container">
         <LeftMenu sortList={() => sortList(listUsers, event)}/>
-        <MainScreen/>
+        <MainScreen modal={modal} swapModal={swapModal}/>
     </div>
   )
 }

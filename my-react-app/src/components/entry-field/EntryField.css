@@ -1,0 +1,22 @@
+.wrapper__entryField{
+    width: 800px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.entryField__title{
+    margin: 10px 0px 0px 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.entryField__input{
+    margin: 5px 0px 25px 20px;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
